@@ -35,7 +35,7 @@ function Introduction() {
                   {text.split("").map((char, i) => {
                     const key = `${i}`;
                     return (
-                      <span key={key} style={{ color: "#009945", fontWeight: 600, backgroundColor: "#e1c775" }}>
+                      <span className="cursor_text" key={key} style={{ color: "#009945", fontWeight: 600, backgroundColor: "#e1c775" }}>
                         {char}
                       </span>
                     );

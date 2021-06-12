@@ -5,6 +5,7 @@
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 0;
+  background-position: 57% 43%;
   height: 100vh;
 }
 .cursor {
@@ -64,5 +65,14 @@
   .IntroContainer {
     margin-top: 50px;
     padding-left: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .myName {
+    font-size: 2em;
+  }
+  .cursor_text {
+    font-size: 0.8em;
   }
 }
