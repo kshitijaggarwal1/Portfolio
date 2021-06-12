@@ -18,6 +18,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+import symbol from './symbol.jpg';
 
 function Footer() {
   config({ ssrFadeout: true });
@@ -28,7 +29,7 @@ function Footer() {
           <Row>
             <Col className="footerCol" xs={12} md={6} lg={4} xl={4}>
               <h1>
-                <img src="favicon.ico" className="FooterImage" alt="K" />
+                <img src={symbol} className="FooterImage" alt="K" />
               </h1>
               <Table responsive="md" borderless="true">
                 <tbody className="FooterTableBody">

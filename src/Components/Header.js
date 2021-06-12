@@ -3,12 +3,13 @@ import { Navbar, Nav, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import "./Header.css";
+import symbol from './symbol.jpg';
 
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="#Introduction">
-        <img className="nameLogo" src="favicon.ico" alt="K" />
+        <img className="nameLogo" src={symbol} alt="K" />
         SHITIJ
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
