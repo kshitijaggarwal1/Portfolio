@@ -1,0 +1,56 @@
+/* light green: #00d965
+dark green: #00b84b
+gfg green: #009945
+Navbar color: #343940
+dark background: #39414f */
+
+.content-left {
+  position: fixed;
+}
+
+.content-right {
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+
+.nameLogo {
+  padding-bottom: 4px;
+  max-height: 30px;
+}
+
+.Navbar-link {
+  font-size: 15px;
+  margin-right: 10px;
+  font-weight: 600;
+  max-width: 118px;
+}
+
+.Navbar-link:hover {
+  color: #fff;
+  border-bottom: 2px solid #009945;
+}
+
+Button {
+  align-self: center;
+  max-width: 125px;
+}
+
+.ResumeDownloadButton {
+  padding: 0;
+  align-self: center;
+}
+
+.ResumeDownloader {
+  color: white;
+  background-color: #009945;
+}
+
+.ResumeDownloader:hover {
+  color: #999c9f;
+  background-color: #343940;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #009945;
+  border-radius: 0;
+}

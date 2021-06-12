@@ -1,0 +1,97 @@
+.FooterJumbotron {
+  background-color: #f9f9f9;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+
+.FooterContainer {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.FooterImage {
+    margin-left: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+.table td, .table th {
+    padding: 5px;
+}
+
+.FooterIcon {
+    color: #009945;
+    font-size: 15px;
+}
+
+.FooterLinks {
+    margin-left: 5px;
+}
+
+.FooterReachingText {
+    color: #009945;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.FooterHr {
+    background-color: #009945;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.FooterCopyrightText {
+    margin-top: 1px;    
+    margin-bottom: 1px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.FooterCopyrightIcon {
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+.FooterInstitutionDetails {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1549px) {
+  .FooterContainer {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+    .FooterContainer {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+
+@media screen and (max-width: 449px) {
+    .FooterContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .FooterJumbotron {
+        padding: 20px 10px 0px 10px;
+    }
+
+    .FooterReachingText {
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+}

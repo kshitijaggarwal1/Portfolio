@@ -1,0 +1,46 @@
+.InterestsContainer {
+  padding-bottom: 40px;
+}
+
+.card_main {
+  background-color: #343940;
+  border: none;
+}
+
+.card_title {
+  margin-bottom: 10px;
+  line-height: 50px;
+  color: #e9ecef;
+  font-size: 1.6em;
+  font-family: "Play", sans-serif;
+  transition: all 0.5s;
+}
+
+.techSkills_heading {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card_text_col {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.progress-bar {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Mukta', sans-serif;
+}
+
+.bg-success {
+    background-color: #009945;
+}
+
+@media screen and (min-width: 1550px) {
+  .main_content_Skills {
+    margin-left: 190px;
+    margin-right: 190px;
+    align-self: center;
+  }
+}

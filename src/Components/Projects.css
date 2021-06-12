@@ -1,0 +1,59 @@
+.ProjectsContainer {
+  background-color: #343940;
+  padding-bottom: 70px;
+}
+
+.tab_header {
+  color: #009945;
+}
+
+div.ant-tabs-tab.ant-tabs-tab-active {
+  border-bottom: 5px solid #02470a;
+}
+
+div#rc-tabs-0-tab-1.ant-tabs-tab-btn {
+  font-size: 20px;
+  font-weight: 900;
+}
+div#rc-tabs-0-tab-2.ant-tabs-tab-btn {
+  font-size: 20px;
+  font-weight: 900;
+}
+div#rc-tabs-0-tab-3.ant-tabs-tab-btn {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.github_link_button {
+  color: #f9f9f9;
+  font-weight: 900;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.visitLinkIcon {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.main_content_project {
+  margin-top: 0;
+}
+
+.card_project {
+  min-height: 378px;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .card_project {
+    min-height: auto;
+  }
+}
+
+@media screen and (min-width: 1549px) {
+  .main_content_project {
+    margin-left: 20px;
+    margin-right:20px;
+  }
+}

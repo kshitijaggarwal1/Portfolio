@@ -1,0 +1,68 @@
+.introduction {
+  background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), url("CoverPic.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 0;
+  height: 100vh;
+}
+.cursor {
+  color: #009945;
+}
+
+.IntroContainer {
+  margin-top: 100px;
+}
+
+.myName {
+  font-weight: 900;
+  color: #343940;
+  /* color: #fff; */
+}
+
+.descrition {
+  color: #343940;
+}
+
+.myLinks {
+  padding-left: 0;
+  padding-top: 5px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.myLinks-elements {
+  margin-right: 30px;
+  font-size: 19px;
+  color: #343940;
+}
+
+.myLinks-elements-last {
+  font-size: 19px;
+  color: #343940;
+}
+
+.myLinks-elements:hover {
+  color: #009945;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.myLinks-elements-last:hover {
+  color: #009945;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .introduction {
+    min-height: 200px;
+  }
+
+  .IntroContainer {
+    margin-top: 50px;
+    padding-left: 12px;
+  }
+}

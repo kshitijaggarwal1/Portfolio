@@ -1,0 +1,80 @@
+/* roboto wght 300
+raleway weight 100
+Play wht 700
+Chango 
+Mukta reg 400 */
+
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Mukta&family=Play:wght@700&family=Raleway:wght@100&family=Roboto:wght@300&display=swap');
+.aboutMeContainer {
+  background-color: #343940;
+}
+
+.introText {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.hrHeading {
+  margin-top: 0;
+  height: 5px;
+  background-color: #009945;
+  border: none;
+  width: 40px;
+}
+
+.Heading {
+  margin-bottom: 0;
+  color: #e9ecef;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 1px 1px #009945;
+}
+
+.firstLetter {
+  margin-bottom: 0;
+  font-size: 45px;
+  color: #009945;
+  font-family: "Chango", cursive;
+}
+
+
+/* ################################################################################################## */
+
+
+.imageContent {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-right: 1px solid rgba(0, 167, 68, 0.1);
+}
+
+.aboutMePic {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 400px;
+  width: auto;
+}
+
+.introDescText {
+  font-family: "Raleway", sans-serif;
+  margin-top: 25px;
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+}
+
+.partText {
+  color: #00d965;
+}
+
+
+@media screen and (max-width: 967px)  {
+    .introDescText{
+        margin-top: 0;
+    }
+    .imageContent {
+        border-right: none;
+    }
+}
+

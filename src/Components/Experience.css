@@ -1,0 +1,75 @@
+.ExperienceContainer {
+  background-color: #343940;
+  padding-bottom: 40px;
+}
+
+.Experience_heading {
+  margin-bottom: 0;
+}
+
+.main_content_Experience {
+  margin-top: 10px;
+}
+.experienceCardImage {
+  padding-top: 10px;
+  width: auto;
+  max-height: 150px;
+}
+
+.experience_card_body {
+  padding-top: 2px;
+}
+
+.Experience_Card {
+  border: 6px solid #009945;
+  min-width: auto;
+  overflow: hidden;
+}
+
+.CompanyName {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 800;
+  color: #009945;
+  font-family: "Play", sans-serif;
+}
+
+.CompanyDesc {
+  color: #343940;
+  font-weight: 600;
+  text-align: center;
+}
+
+.CompanyDescBack {
+    font-weight: 600;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  color: #f9f9f9;
+  background-color: #009945;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.togglerButton {
+    background-color: #009945;
+    color: #f9f9f9;
+}
+
+@media screen and (min-width: 1549px) {
+  .main_content_Experience {
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 1549px) {
+  .main_content_Experience {
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+  }
+}

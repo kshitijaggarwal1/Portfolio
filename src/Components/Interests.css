@@ -1,0 +1,108 @@
+.InterestsContainer {
+  background-color: #343940;
+  padding-bottom: 50px;
+}
+
+.heading_intro_text {
+  margin-bottom: 10px;
+}
+
+/* ################################################################################### */
+
+.cardBody:hover {
+  background-color: #009945;
+  transition: all 0.5s;
+}
+
+.cardBody:hover .cardIcons {
+  color: #e9ecef;
+  transition: all 0.5s;
+}
+
+.cardBody:hover .cardText {
+  color: #e9ecef;
+  transition: all 0.5s;
+}
+
+.cardBody:hover .cardHr {
+  background-color: #e9ecef;
+  transition: all 1s;
+}
+
+.cardBody:hover .myLinks-elements:hover {
+  color: #e9ecef;
+  transition:all 0.5s;
+}
+
+.cardBody:hover .myLinks-elements-last:hover {
+  color: #e9ecef;
+  transition:all 0.5s;
+}
+
+.main_content_Interests {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.next_row {
+  margin-top: 30px;
+}
+
+.cardIcons {
+  color: #009945;
+  margin: 5px 45%;
+  font-size: 40px;
+}
+
+.cardHr {
+  background-color: #00d965;
+}
+
+.cardText {
+  color: #343940;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.cardMain {
+  background-color: #e9ecef;
+  border-top: 7px solid #009945;
+  min-height: 290px;
+}
+
+.cardMain:hover {
+  box-shadow: 0 8px 6px 0 rgba(0, 167, 68, 0.4), 0 10px 20px 0 rgba(0, 167, 68, 0.19);
+  transition: all .2s;
+}
+
+.cardTitle {
+  margin-bottom: 5px;
+  line-height: 50px;
+  color: #343940;
+  font-size: 1.6em;
+  font-family: "Play", sans-serif;
+  transition: all .5s;
+}
+
+.interestsIcons {
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding-left: 0;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardBody:hover .interestsIcons {
+  color: #e9ecef;
+}
+
+@media screen and (min-width: 1550px) {
+  .main_content_Interests {
+    margin-left: 190px;
+    margin-right: 190px;
+    align-self: center;
+  }
+}
