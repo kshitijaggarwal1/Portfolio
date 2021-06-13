@@ -194,7 +194,7 @@ function Projects() {
                       {/* I have to provide the github link once placed on the same */}
                       <Card.Footer
                         className="CompanyDescBack github_link_button"
-                        onClick={() => window.open("", "_blank")}
+                        onClick={() => window.open("https://github.com/kshitijaggarwal1/Portfolio", "_blank")}
                       >
                         Visit &nbsp;
                         <FontAwesomeIcon
