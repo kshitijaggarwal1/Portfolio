@@ -26,7 +26,7 @@ function Introduction() {
             text={[
               "Software Developer",
               "Sport Programmer",
-              "Guitartist",
+              "Guitarist",
             ]}
             cursorRenderer={(cursor) => <h3 className="cursor">{cursor}</h3>}
             displayTextRenderer={(text, i) => {

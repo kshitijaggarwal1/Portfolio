@@ -93,7 +93,7 @@ function TechnicalSkills() {
                   <ProgressBar
                     variant="success"
                     now={75}
-                    label="Web Scapping &amp; Automation"
+                    label="Web Scrapping"
                   />
                 </Card.Text>
               </Card.Body>
